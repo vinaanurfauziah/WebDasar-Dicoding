@@ -27,3 +27,14 @@ nav a:hover {
 .profile header {
     text-align: center;
 }
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover; //biar ukuran gambar seimbang
+    object-position: center; // dan pertahanin kualitas rasio aslinya
+}
+
+.profile img {
+    width: 200px;
+}
